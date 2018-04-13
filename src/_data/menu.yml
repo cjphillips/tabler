@@ -1,11 +1,20 @@
-index:
-  name: Home
-  icon: fe fe-home
+data:
+  name: Customer Data
+  icon: fa fa-group
+  url: cust.html
+
+trends:
+  name: Trends
+  icon: fa fa-line-chart
   url: index.html
+
+db:
+  name: Talaria
+  icon: fa fa-database
 
 interface:
   name: Interface
-  icon: fe fe-box
+  icon: fa fa-database
   subpages:
     cards:
       name: Cards design
@@ -21,9 +30,13 @@ interface:
       name: Pricing cards
       url: pricing-cards.html
 
+    supportpacks:
+      name: Support Pack
+      url: supportpack.html
+
 components:
   name: Components
-  icon: fe fe-calendar
+  icon: fa fa-line-chart
   subpages:
     maps:
       name: Maps
@@ -106,12 +119,6 @@ forms:
   name: Forms
   icon: fe fe-check-square
   url: form-elements.html
-
-gallery:
-  name: Gallery
-  icon: fe fe-image
-  url: gallery.html
-
 
 docs:
   name: Documentation

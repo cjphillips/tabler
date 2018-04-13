@@ -1,0 +1,58 @@
+<div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Filter</h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label class="form-label">Customer</label>
+                <input type="text" name="field-name" class="form-control" data-mask-clearifnotmatch="true" placeholder="extrahop" />
+            </div>
+    
+            <div class="form-group">
+                <label class="form-label">Platform</label>
+                <input type="text" name="field-name" class="form-control" data-mask="xxx" data-mask-clearifnotmatch="true" placeholder="EDA" />
+            </div>
+    
+            <div class="form-group">
+                <label class="form-label">Model</label>
+                <input type="text" name="field-name" class="form-control" data-mask="0000" data-mask-clearifnotmatch="true" placeholder="6100" />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label"></label>
+            </div>
+
+            <div class="form-group">
+                <div class="custom-controls-stacked">
+                    <label class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" class="custom-control-input" name="example-inline-radios" value="option1" checked>
+                        <span class="custom-control-label">Virtual</span>
+                    </label>
+                    <label class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" class="custom-control-input" name="example-inline-radios" value="option2">
+                        <span class="custom-control-label">Non-Virtual</span>
+                    </label>
+                    <label class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" class="custom-control-input" name="example-inline-radios" value="option3">
+                        <span class="custom-control-label">Both</span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="form-label">More options..</div>
+            <div class="custom-controls-stacked">
+                <label class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="archived-checkbox" value="isarchived" checked>
+                    <span class="custom-control-label">Archived</span>
+                </label>
+                <label class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="legacy-checkbox" value="islegacy" checked>
+                    <span class="custom-control-label">Legacy</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        require(['input-mask']);
+    </script>

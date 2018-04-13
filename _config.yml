@@ -73,6 +73,12 @@ docs-menu:
   - title: Components
     pages: [alerts, avatars, buttons, colors, cards, charts, form-components, tags, typography]
 
+sp-menu:
+  - title: youtechnology
+    pages: [index]
+    title: Components
+    pages: [bridge, capture, common]
+
 colors:
   blue: 
     hex: '#467fcf'
